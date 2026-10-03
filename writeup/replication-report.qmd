@@ -106,9 +106,6 @@ responsibility for the content of this report, including any errors introduced b
 
 # Key statistics
 
-::: {.callout-tip icon=false}
-## Guidance
-
 One row per study for the key comparison: the original, your Phase 1 replication, and your
 Phase 2 extension. The table fills itself in from the data as each phase is exported, using the
 analysis code below (open "Show the analysis code"), which is shared by both phases so they are
