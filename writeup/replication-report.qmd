@@ -112,7 +112,7 @@ analysis code below (open "Show the analysis code"), which is shared by both pha
 analysed identically. Edit that code once, here, to match your design and preregistered
 exclusion rule. On the scientific-extension track, the Phase 2 row reports the new comparison:
 adapt its code and say so in the caption.
-:::
+
 
 ```{r}
 #| label: analysis-functions
@@ -227,13 +227,9 @@ bind_rows(
 
 ## Introduction
 
-::: {.callout-tip icon=false}
-## Guidance
-
 The original study found that showing social media posts to perimenopausal and menopausal women framing the menopause transition as either normal, distressful, or transformative has immediate effects on affective responses. Participants who viewed distress-framed posts reported greater levels of worry, confusion, and lower levels of reassurance, optimism, and empowerment. Interestingly, the distress framing posts increased perceived knowledge of menopause. Despite participants feeling more negatively toward them. I replicated the study and its findings utilizing the same affective reactions, expected behavioral responses, and perceptions scales. This study was important for me because it demonstrates how narrative framing shapes affective responses and the importance of choosing the right words while sharing medical information, especially for a stage of life that half of the population will live for almost 40% of their lives. The effect of negative framing with affective responses has been consistently reported in studies to have an association, but they could also affect how women experience their symptoms physically. I will like to further investigate the mind-body effects of menopausal mindsets in the future.
 
 For this, I planned to use the original posts  to reduce differences between studies. The participants were randomly assigned to a condition (normal/distress/transformative posts), they answered questions about their sociodemographic and relevant medical history data. Next, they saw the 4 posts specific to the condition they were assigned to and completed the measures. One challenge that I anticipated was obtaining the original materials from the authors; otherwise, I planned to recreate their content and format as closely as possible. For the statistical analysis, I used ordinal logistic regression for each ordinal outcome, comparing the distress and transformative conditions with the normal condition. For the extension, I used  validated scales to measure attitudes towards menopause and subjective symptoms  and examined whether a brief intervention could change their scores.
-:::
 
 ## Methods
 
