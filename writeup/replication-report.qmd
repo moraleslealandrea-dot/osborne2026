@@ -1,7 +1,7 @@
 ---
-title: "Replication of Problems 1 and 2 of Tversky & Kahneman (1981, *Science*)"
-author: "Your Name (your.email@stanford.edu)"
-date: today
+title: "Replication of Osborne et al. (2026, *JMIR Formative Research*)"
+author: "Andrea Morales Leal andreaml@stanford.edu"
+date: October 3, 2026
 date-format: long
 format:
   html:
@@ -75,20 +75,15 @@ original_p_loss <- original$risky[original$condition == "loss"] / original$n[ori
 ::: {.callout-note appearance="simple" icon=false}
 ## Project links
 
-- **Original paper:** Tversky, A., & Kahneman, D. (1981). The framing of decisions and the
-  psychology of choice. *Science, 211*(4481), 453–458. <https://doi.org/10.1126/science.7455683>
+- **Original paper:** Osborne, A. K., Brown, R. D., & Sillence, E. (2026). Effects of Social Media Narratives on Affective and Behavioral Responses to Menopause Content: Randomized Online Experimental Study. *JMIR Formative Research, 10*, e85788. <https://doi.org/10.2196/85788>
 - **Preregistration:** [OSF registration](https://osf.io/XXXXX) *(registered YYYY-MM-DD, before final data collection)*
 - **Live experiment:** <https://psych251.github.io/your-repo/> (take the study exactly as participants did)
-- **Repository:** <https://github.com/psych251/your-repo> (experiment code, data, and this report)
+- **Repository:** <https://github.com/moraleslealandrea-dot/osborne2026.git> (experiment code, data, and this report)
 :::
 
 # AI use statement
 
 ::: {.callout-tip icon=false}
-## Guidance
-
-This statement comes first so a reader knows how the work was produced before reading it. Keep
-it current from the start of the project rather than reconstructing it at the end.
 
 **Course policy: you write all of the text in this report yourself.** AI tools may help with
 code, and may comment on drafts you have written, but they may not write, rewrite or paraphrase
@@ -103,9 +98,7 @@ tools, replace the table with a sentence saying so.
 
 | Tool and model | What it was used for | How you checked the output |
 |---|---|---|
-| *e.g., Claude Code (Claude Opus 5)* | *Implemented the experiment from the original Methods section* | *Ran the automated tests; took the study myself; compared every screen with the original materials* |
-| *e.g., Claude Code (Claude Opus 5)* | *Drafted the analysis code* | *Checked the exclusion counts by hand; confirmed the key test matches the preregistration* |
-| *e.g., ChatGPT* | *Comments on my draft of the Introduction (no text generated)* | *Decided which comments to act on and made every change myself; checked any factual claim against the source* |
+| *ChatGpt* | *Has helped me understand the instructions, understand the commands and to navigate through github, and check some grammar mistakes* | *I double checked the instructions, what to do next and reviewed and learned each command individually* |
 
 I wrote all of the text in this report myself. AI tools were not used to write, rewrite or
 paraphrase it, and were not used to generate, alter, or impute any participant data. I take full
@@ -240,10 +233,9 @@ bind_rows(
 ::: {.callout-tip icon=false}
 ## Guidance
 
-One or two paragraphs, no abstract and no literature review: that is in the original paper.
-Say what the original study found, which specific finding you are replicating, and why it
-matters to you. Write the Introduction and Methods in the past tense, even though you write
-them before collecting data.
+The original study found that showing social media posts to perimenopausal and menopausal women framing the menopause transition as either normal, distressful, or transformative has immediate effects on affective responses. Participants who viewed distress-framed posts reported greater levels of worry, confusion, and lower levels of reassurance, optimism, and empowerment. Interestingly, the distress framing posts increased perceived knowledge of menopause. Despite participants feeling more negatively toward them. I replicated the study and its findings utilizing the same affective reactions, expected behavioral responses, and perceptions scales. This study was important for me because it demonstrates how narrative framing shapes affective responses and the importance of choosing the right words while sharing medical information, especially for a stage of life that half of the population will live for almost 40% of their lives. The effect of negative framing with affective responses has been consistently reported in studies to have an association, but they could also affect how women experience their symptoms physically. I will like to further investigate the mind-body effects of menopausal mindsets in the future.
+
+For this, I planned to use the original posts  to reduce differences between studies. The participants were randomly assigned to a condition (normal/distress/transformative posts), they answered questions about their sociodemographic and relevant medical history data. Next, they saw the 4 posts specific to the condition they were assigned to and completed the measures. One challenge that I anticipated was obtaining the original materials from the authors; otherwise, I planned to recreate their content and format as closely as possible. For the statistical analysis, I used ordinal logistic regression for each ordinal outcome, comparing the distress and transformative conditions with the normal condition. For the extension, I used  validated scales to measure attitudes towards menopause and subjective symptoms  and examined whether a brief intervention could change their scores.
 :::
 
 ## Methods
